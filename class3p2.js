@@ -14,4 +14,4 @@ fs.readFile("test1.txt", function(err, data){
 })
 
 //Asyncronus means parallel
-//console.log("this is a test");
+console.log("this is a test");
