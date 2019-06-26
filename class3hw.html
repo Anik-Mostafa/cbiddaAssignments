@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <button id="btn-1">ONE</button>
+
+    <br>
+    <h1 id="h11">Button 1 was clicked : 0 times</h1>
+    <br>
+    <button id="btn-2">TWO</button>
+    <h1 id="h22">Button 2 was clicked : 0 times</h1>
+    <br>
+    <h1 id="h33">Total = </h1>
+
+
+    <script>
+      var x=0;
+      var y=0;
+      document.getElementById("btn-1").addEventListener("click", function(){
+        x++;
+        document.getElementById("h11").innerHTML = "Button 1 was clicked : "+x+" times";
+        document.getElementById("h33").innerHTML = "Total = "+(x+y);
+});
+      document.getElementById("btn-2").addEventListener("click", function(){
+        y++;
+        document.getElementById("h22").innerHTML = "Button 2 was clicked : "+y+" times";
+        document.getElementById("h33").innerHTML = "Total = "+(x+y);
+
+});
+
+    </script>
+  </body>
+</html>
