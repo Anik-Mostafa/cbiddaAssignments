@@ -1,0 +1,160 @@
+*{
+  margin:0;
+  padding: 0;
+}
+h2{
+  color:blue;
+  font-size: 50px;
+  font-weight: bold;
+  text-align:center;
+  text-decoration:line-through;
+}
+p{
+  color:green;
+  font-size: 20px;
+  font-weight: bold;
+  text-align:center;
+  text-decoration:underline;
+  line-height: 40px;
+  letter-spacing: 5px;
+  text-align: justify;
+}
+.about{
+  background-color: red;
+  height: 300px;
+}
+.test{
+  font-size: 50px;
+  color: black;
+  padding: 50px;
+}
+.banner{
+  background-color: deepskyblue;
+  max-height: 300px;
+  padding: 50px;
+  text-align: center;
+
+
+}
+.banner h1{
+
+  font-size: 100px;
+  color: white;
+  padding-top: 40px;
+
+}
+.btnA{
+  /* align:center; */
+  text-align: center;
+  font-style:italic;
+  background-color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius:25px;
+}
+.btnA>a{
+  color:black;
+  text-decoration: none;
+  font-size: 20px;
+}
+.banner2{
+  background-image: url('moon.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 300px;
+  background-size: cover;
+}
+.h3{
+  font-size: 130px;
+  font-style: italic;
+  text-align: center;
+}
+.b1, .b2, .b3{
+  height: 200px;
+  border: 3px solid blue;
+  background-color: lightgreen;
+  width:32%;
+  display: inline-block;
+}
+.pre{
+  height: 200px;
+  border: 3px solid blue;
+  background-color: lightgreen;
+  width:32%;
+  display: inline-block;
+}
+.p1, .p3{
+  height: 50px;
+  border: 3px solid blue;
+  background-color: gray;
+  width:48%;
+  border-radius: 25px;
+  display: inline-block;
+}
+.p5, .p7{
+  height: 50px;
+  border: 3px solid blue;
+  background-color: gray;
+  width:48%;
+  border-radius: 25px;
+  display: inline-block;
+}
+.p9, .p11{
+  height: 50px;
+  border: 3px solid blue;
+  background-color: gray;
+  width:48%;
+  border-radius: 25px;
+  display: inline-block;
+}
+.p2{
+  height: 50px;
+  border: 3px solid blue;
+  background-color: aqua;
+  width:52%;
+  border-radius: 25px;
+  /* display: inline-block; */
+}
+.p4{
+  height: 50px;
+  border: 3px solid blue;
+  background-color: aqua;
+  width:22%;
+  border-radius: 25px;
+  /* display: inline-block; */
+}
+.p6{
+  height: 50px;
+  border: 3px solid blue;
+  background-color: aqua;
+  width:72%;
+  border-radius: 25px;
+  /* display: inline-block; */
+}
+.p8{
+  height: 50px;
+  border: 3px solid blue;
+  background-color: aqua;
+  width:52%;
+  border-radius: 25px;
+  /* display: inline-block; */
+}
+.p10{
+  height: 50px;
+  border: 3px solid blue;
+  background-color: aqua;
+  width:52%;
+  border-radius: 25px;
+  /* display: inline-block; */
+}
+.p12{
+  height: 50px;
+  border: 3px solid blue;
+  background-color: aqua;
+  width:52%;
+  border-radius: 25px;
+  /* display: inline-block; */
+}
+.mar{
+  margin-left: 70px;
+}

@@ -1,0 +1,276 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+.background-pic{
+  background: url('training2.jpg');
+  width: 100%;
+  height:630px;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+.whats-about{
+  position:absolute;
+width:100%;
+height:605px;
+background:rgba(0,0,0,0.7);
+}
+.main-h{
+  color:orange;
+  font-size: 70px;
+  padding-top: 120px;
+  text-align: center;
+}
+.main-p{
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 20px;
+}
+.btn{
+  text-align: center;
+  padding-top: 45px;
+
+}
+#b1{
+  background-color: orange;
+  padding:7px 35px;
+  font-size: 18px;
+  border-radius: 25px;
+  /* border-color:orange; */
+}
+#b2{
+  color: white;
+  background-color: black;
+  padding:7px 35px;
+  font-size:18px;
+  border-radius: 25px;
+  border-color: black;
+}
+.first-p{
+    padding: 120px;
+    padding-top: 119px;
+    text-align: center;
+}
+.first-h{
+  color:orange;
+  font-size: 45px;
+
+}
+.first-pp{
+  padding-top: 20px;
+  font-size: 23px;
+
+}
+.p1, .p3{
+  height: 50px;
+  border: 3px solid none;
+  background-color: lightgray;
+  width:48%;
+  border-radius: 25px;
+  display: inline-block;
+}
+.p5, .p7{
+  height: 50px;
+  border: 3px solid none;
+  background-color: lightgray;
+  width:48%;
+  border-radius: 25px;
+  display: inline-block;
+}
+.p9, .p11{
+  height: 50px;
+  border: 3px solid none;
+  background-color: lightgray;
+  width:48%;
+  border-radius: 25px;
+  display: inline-block;
+}
+.p2{
+  height: 50px;
+  border: 3px solid none;
+  background-color: orange;
+  text-align: center;
+  width:25%;
+  border-radius: 25px;
+  /* display: inline-block; */
+}
+.p4{
+  height: 50px;
+  border: 3px solid none;
+  background-color: orange;
+  text-align: center;
+  width:25%;
+  border-radius: 25px;
+  /* display: inline-block; */
+}
+.p6{
+  height: 50px;
+  border: 3px solid none;
+  background-color: orange;
+  text-align: center;
+  width:50%;
+  border-radius: 25px;
+  /* display: inline-block; */
+}
+.p8{
+  height: 50px;
+  border: 3px solid none;
+  background-color: orange;
+  text-align: center;
+  width:50%;
+  border-radius: 25px;
+  /* display: inline-block; */
+}
+.p10{
+  height: 50px;
+  border: 3px solid none;
+  background-color: orange;
+  text-align: center;
+  width:75%;
+  border-radius: 25px;
+  /* display: inline-block; */
+}
+.p12{
+  height: 50px;
+  border: 3px solid none;
+  background-color: orange;
+  text-align: center;
+  width:75%;
+  border-radius: 25px;
+  /* display: inline-block; */
+}
+.container{
+
+  padding: 60px 155px;
+}
+.i1{
+  padding-top: 70px;
+  text-align: center;
+
+  width:25%;
+  margin-left: 100px;
+  height: 300px;
+
+  background-color: lightgray;
+  background-color: rgb(243, 236, 236);
+  /* border: 1px solid orange; */
+  display: inline-block;
+
+}
+.i2{
+  padding-top: 70px;
+  text-align: center;
+  height: 300px;
+  width:25%;
+  margin-left: 50px;
+  background-color: lightgray;
+  background-color: rgb(243, 236, 236);
+
+  /* border: 1px solid orange; */
+  display: inline-block;
+
+}
+.i3{
+  padding-top: 70px;
+  text-align: center;
+  height: 300px;
+  width:25%;
+  margin-left: 50px;
+  background-color: rgb(243, 236, 236);
+  /* border: 1px solid orange; */
+  display: inline-block;
+
+}
+#b3{
+  padding-top: 15px;
+
+  color: white;
+  background-color: orange;
+  padding:15px 60px;
+  font-size:22px;
+
+
+}
+.p22{
+  font-size: 20px;
+  margin-top: 100px;
+  padding-top: 100px;
+  width:100%;
+  height: 250px;
+  background-size: contain;
+  background: url(pp.jpg);
+  text-align: center;
+}
+.news{
+  color:white;
+  text-align: center;
+}
+#b5{
+  margin-top: 55px;
+
+  color: white;
+  background-color: orange;
+  padding:15px 60px;
+  font-size:22px;
+  border: none;
+
+}
+.last-p{
+  padding-top:60px;
+  padding-left: 135px;
+}
+.lp1{
+  background-image: url('team-image1.jpg');
+  height: 360px;
+  width:28%;
+  background-size: cover;
+  display: inline-block;
+
+  border: 5px solid orange;
+  text-align: center;
+
+
+}
+.lp2{
+  background-image: url('team-image2.jpg');
+  width:28%;
+  height: 360px;
+  background-size: cover;
+
+  display: inline-block;
+
+  margin-left: 30px;
+  border: 5px solid orange;
+  text-align: center;
+
+}
+.lp3{
+  background-image: url('team-image3.jpg');
+  width:28%;
+  height: 360px;
+  background-size: cover;
+  margin-left: 30px;
+  display: inline-block;
+  text-align: center;
+
+  border: 1px;
+  border: 5px solid orange;
+}
+.l-last{
+  text-align: center;
+  margin-top: 94px;
+  margin-left: 180px;
+  margin-right: 180px;
+  font-size: 20px;
+}
+.nav{
+  padding-top: 25px;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  margin-top: 60px;
+  background: black;
+  color: white;
+}

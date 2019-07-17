@@ -5,42 +5,52 @@
     <title></title>
   </head>
   <body>
+    <style media="screen">
+
+    </style>
 
 
 
 
     <script>
-      let x=0;
+
       //let y=0;
 
 
-function fun(x) {
+function fun() {
   var btn = document.createElement("BUTTON");
 btn.innerHTML = "CLICK ME";
 document.body.appendChild(btn);
 
-var abcElements = document.querySelectorAll('button');
+
+var br = document.createElement("BR");
+document.body.appendChild(br);
+
+var br = document.createElement("BR");
+document.body.appendChild(br);
 
 
-for (var i = 0; i < abcElements.length; i++)
-    abcElements[i].id = 'abc-' + i;
+//var abcElements = document.querySelectorAll('button');
 
-var x=i-1;
 
-var str= "abc-"+x;
-str.toString();
+// for (var i = 0; i < abcElements.length; i++)
+//     abcElements[i].id = 'abc-' + i;
+//
+// var x=i-1;
+//
+// var str= "abc-"+x;
+// str.toString();
 
 ////////////
-let yy=0;
-document.querySelector(".str").addEventListener("click", function(){
-  yy++;
-  var h11 = document.createElement("H2");
-  document.body.appendChild(h11);
-  h11.innerHTML = "Button 2 was clicked : "+yy+" times";
+var x=0;
+document.querySelector("button").addEventListener("click", function(){
 
-  //document.getElementById("h22").innerHTML = "Button 2 was clicked : "+y+" times";
-  document.getElementById("h33").innerHTML = "Total = "+(x+yy);
+x++;
+btn.innerHTML = x;
 
+  // var h11 = document.createElement("H2");
+  // document.body.appendChild(h11);
+  //
 });
 
 
@@ -48,6 +58,11 @@ document.querySelector(".str").addEventListener("click", function(){
 }
 fun();
 fun();
+fun();
+fun();
     </script>
+
+
+
   </body>
 </html>

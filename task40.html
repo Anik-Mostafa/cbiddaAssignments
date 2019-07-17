@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <style media="screen">
+
+    </style>
+
+
+
+
+    <script>
+
+      var y=0;
+
+
+
+function fun() {
+  var btn = document.createElement("BUTTON");
+btn.innerHTML = "CLICK ME";
+document.body.appendChild(btn);
+
+
+var br = document.createElement("BR");
+document.body.appendChild(br);
+
+var br = document.createElement("BR");
+document.body.appendChild(br);
+
+
+var abcElements = document.querySelectorAll('button');
+
+
+for (var i = 0; i < abcElements.length; i++)
+    abcElements[i].id = 'abc-' + i;
+
+var x=i-1;
+
+var str= "abc-"+x;
+//str.toString();
+
+////////////
+var x1=0;
+document.querySelector("#"+str).addEventListener("click", function(){
+y++;
+x1++;
+btn.innerHTML = x1;
+document.querySelector("h1").innerHTML = y;
+
+  // var h11 = document.createElement("H2");
+  // document.body.appendChild(h11);
+  //
+});
+
+
+////////////
+}
+fun();
+
+    </script>
+
+  <h1>Total</h1>
+
+  </body>
+</html>

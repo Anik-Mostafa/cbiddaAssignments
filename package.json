@@ -1,0 +1,28 @@
+{
+  "name": "cbiddaassignments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "class1.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "jest": "^24.8.0",
+    "json-2-csv": "^3.5.5",
+    "weather-js": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anik-Mostafa/cbiddaAssignments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anik-Mostafa/cbiddaAssignments/issues"
+  },
+  "homepage": "https://github.com/Anik-Mostafa/cbiddaAssignments#readme"
+}
